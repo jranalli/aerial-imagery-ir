@@ -1,0 +1,14 @@
+# Instructions for pytorch GPU install - https://pytorch.org/get-started/locally/
+# conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+torch
+torchvision
+
+# Other libraries
+# conda install matplotlib jupyter conda-forge::segmentation-models-pytorch conda-forge::albumentations conda-forge::pytorch-lightning
+matplotlib
+jupyter
+segmentation-models-pytorch
+albumentations
+pytorch-lightning
+
+# pandas?
